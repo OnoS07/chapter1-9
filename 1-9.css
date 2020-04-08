@@ -4,3 +4,34 @@
   box-sizing: border-box;
 }
 
+.contents{
+	margin: 50px 0px;
+	width: 960px;
+}
+
+.content{
+	width:300px;
+	padding: 10px;
+	border:1px solid gray;
+	position: relative;
+	float: left;
+}
+.content:nth-child(2){
+	margin-right: 30px;
+	margin-left: 30px;
+
+}
+
+
+.img{
+	width: 280px;
+}
+.step{
+	background-color: orange;
+	color: white;
+	position: absolute;
+	top:0px;
+	left: 0px;
+}
+
+
